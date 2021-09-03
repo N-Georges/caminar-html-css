@@ -1,8 +1,8 @@
 body{
     margin: 0 15%;
     background-image: url(../img/bg.jpg);
+    background-attachment: fixed;
     background-size: 100%;
-    background-repeat: repeat-y;
 }
 /* header */
 .header_1{
@@ -54,3 +54,44 @@ body{
     padding: 15px;
 }
 
+/* section Vestibulum Convallis */
+.vestibulum_convallis{
+    background-color: #1E1F23;
+    padding: 100px;
+    text-align: center;
+}
+
+.vc_1{
+    background-color: #161616;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.vc_1 hr{
+    margin: 0 550px;
+    color: #888888;
+    border: 0.1px solid #888888;
+}
+.vc_1 h2{
+    color: #F5F5F4;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.vc_1 p{
+    color: #888888;
+    text-transform: uppercase;
+    letter-spacing: 0.17em;
+}
+
+.vc_img div{
+    width: 50%;
+    display: flex;
+}
+.vc_img{
+    display: flex;
+    flex-wrap: wrap;
+}
+.vc_img div img{
+    width: 100%;
+}
