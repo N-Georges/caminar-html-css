@@ -95,3 +95,74 @@ body{
 .vc_img div img{
     width: 100%;
 }
+
+
+/* section last */
+.content_1{
+    display: flex;
+}
+.content_1 div:first-of-type{
+    display: flex;
+}
+.content_1 div:last-of-type{
+    padding: 80px ;
+    display: flex;
+    background-color: #F5F5F4;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.content_1 div:last-of-type p{
+    color: #888888;
+}
+.content_1 div:last-of-type h3{
+    margin: 0;
+}
+
+/* content 2 */
+.content_2{
+    display: flex;
+}
+
+.content_2 div:first-of-type{
+    display: flex;
+    order: 1;
+}
+.content_2 div:last-of-type{
+    padding: 80px ;
+    display: flex;
+    background-color: #1E1F23;
+    flex-direction: column;
+    justify-content: center;
+}
+.content_2 div:last-of-type p{
+    color: #888888;
+}
+.content_2 div:last-of-type h3{
+    color: #F5F5F4;
+    margin: 0;
+}
+
+/* content 3 */
+.content_3{
+    display: flex;
+}
+.content_3 div:first-of-type{
+    display: flex;
+}
+.content_3 div:last-of-type{
+    padding: 80px ;
+    display: flex;
+    background-color: #F5F5F4;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.content_3 div:last-of-type p{
+    color: #888888;
+}
+.content_3 div:last-of-type h3{
+    margin: 0;
+}
+
+/* footer */
